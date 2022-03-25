@@ -1,0 +1,9 @@
+# Copyright (c) 2020 Linumiz
+#
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig MP2667
+	bool "MP2667 Fuel Gauge"
+	depends on I2C
+	help
+	  Enable I2C-based driver for MP2667 Fuel Gauge.
